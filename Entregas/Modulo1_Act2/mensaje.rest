@@ -1,0 +1,10 @@
+POST http://127.0.0.1:5000/mensaje
+Content-Type: application/json
+
+{
+  "mensaje": "Mensaje enviado atraves de rest client"
+}
+
+
+### Get Info
+GET  http://127.0.0.1:5000/info
